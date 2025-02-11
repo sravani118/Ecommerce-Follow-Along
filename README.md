@@ -97,3 +97,20 @@ Milestone 2 focuses on the creation and setup of the **Login Page** for the appl
 
 - User Model Creation: A new User model was created to represent user data in the database, including necessary fields such as name, email, password, etc.
 - Multer Integration: Multer was integrated to handle file uploads (e.g., profile images, documents, etc.). Multer handles multipart/form-data, which is used for uploading files in Node.js applications.
+
+
+
+## Milestone 5: Sign-Up Page Implementation
+
+In this milestone, I have created a *Sign-Up page* with the following features:
+- A user-friendly form for entering *Name, **Email, **Password, and **Confirm Password*.
+- Form validation to ensure:
+  - All fields are filled.
+  - The email is valid.
+  - The password meets the minimum length requirement and matches the confirm password field.
+- Upon successful form submission, the user is redirected to the Login page.
+
+Technologies used:
+- React
+- Tailwind CSS
+- React Router
