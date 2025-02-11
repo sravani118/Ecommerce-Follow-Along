@@ -51,6 +51,8 @@ This project will guide you through building  full-stack E-commerce website  usi
 
 In a MERN stack application, login and sign-up (authentication) typically involve a process where users can register (sign-up) with their credentials, and later log in using those credentials. The login and sign-up process can be divided into several steps, with separate client-side (React) and server-side (Node.js/Express) handling.
 
+
+
 # Milestone 2:
 ## Milestone 2: Login Page & Authentication Setup
 
@@ -77,3 +79,21 @@ Milestone 2 focuses on the creation and setup of the **Login Page** for the appl
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **React Router**: For managing routing (if applicable).
 - **Axios**: To handle HTTP requests for user authentication (in future milestones)
+
+
+
+## Milestone 3: Backend Setup
+
+### Progress:
+- Set up the project folder structure with routes, controllers, models, middlewares, and utilities.
+- Created a Node.js server with Express.
+- Connected the server to MongoDB using Mongoose.
+- Added error handling middleware for better debugging.
+- 
+
+## Milestone 4 Overview
+
+### In this milestone, the following features were implemented:
+
+- User Model Creation: A new User model was created to represent user data in the database, including necessary fields such as name, email, password, etc.
+- Multer Integration: Multer was integrated to handle file uploads (e.g., profile images, documents, etc.). Multer handles multipart/form-data, which is used for uploading files in Node.js applications.
