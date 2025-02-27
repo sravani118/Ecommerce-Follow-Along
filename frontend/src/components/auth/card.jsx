@@ -1,4 +1,3 @@
-// Reusable Card Component
 const Card = ({ name, price, image, onAddToCart, onBuyNow }) => {
     return (
       <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl">
