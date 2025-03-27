@@ -42,7 +42,7 @@ function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link to="/" className="text-2xl font-semibold tracking-wide text-white">
-                LocalBaZar.
+                trend shop.
               </Link>
             </div>
           </div>
